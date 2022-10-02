@@ -1,7 +1,7 @@
-# portfolio
+# - PORTFOLIO -
 ---
-## 포트폴리오 1. 
+## portfolio 1. 
 ### 1. 문제 정의
 ---
-## 포트폴리오 2.
+## portfolio 2.
 ---
