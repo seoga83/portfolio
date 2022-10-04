@@ -69,3 +69,5 @@
 > 1.4 개발 환경
 > * PixelAnnotationTool, colab, Pytorch, CV2, matplotlib, MMSegmentation
 ---
+## 프로젝트 PPT 자료
+https://iridescent-taiyaki-ba6ad5.netlify.app
