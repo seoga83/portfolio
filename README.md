@@ -76,6 +76,41 @@
 > 2.2 프로젝트 수행 일정
 
 <img src="/etc/img/pf2_schedule.png" width="90%" height="90%"></img><br/>
+### 3. 데이터셋
+> 3.1 PixelAnnotationTool
+
+<img src="/etc/img/labeling.png" width="90%" height="90%"></img><br/>
+> 3.2 이미지 데이터셋
+> * 데이터수: 약 3,100 여장
+
+<img src="/etc/img/pf2_dataset.png" width="90%" height="90%"></img><br/>
+### 4. Image Segmentation
+> 4.1 Deeplab V3+
+> * Deeplab V3는 ImageNet에서 학습된 ResNet을 기본적인 특징 추출기로 사용한다. ResNet의 마지막 블록에서는 여러가지 확장비율을 사용한 Atrous Convolution을 사용해서 다양한 크기의 특징들을 뽑아낼 수 있도록 한다.
+> * 이전 Deeplab 버전에서 소개되었던 Atrous Spatial Pyramid Pooling (ASPP)을 사용한다. 좋은 성능을 보였던 모델들의 특징들을 섞어놓은 모델이며, 다양한 확장비율을 가진 커널을 병렬적으로 사용한 convolution이다.
+> * Deeplab V3+에서는 Encoder로 DeepLab V3를 사용하고, Decoder로 Bilinear Upsampling 대신 U-Net과 유사하게 Concat 해주는 방법을 사용한다.
+
+> 4.2 모델링
+> * Batch size: 2
+> * Epoch: 30
+> * Loss function: Cross Entropy Loss
+> * Learning rate: 0.001
+> * Optimizer: SGD
+
+<img src="/etc/img/pf2_deeplab.png" width="50%" height="50%"></img><br/>
+### 5. Image Segmentation 결과
+> 5.1 성능 평가 지표
+
+<img src="/etc/img/pf2_iou.png" width="30%" height="30%"></img><br/>
+> 5.2 추론 결과 Mask
+
+<img src="/etc/img/pf2_mask_result.png" width="80%" height="80%"></img><br/>
+> 5.3 외관 손상 인식 이미지
+
+<img src="/etc/img/pf2_result1.png" width="80%" height="80%"></img><br/>
+<img src="/etc/img/pf2_result2.png" width="80%" height="80%"></img><br/>
+<img src="/etc/img/pf2_result3.png" width="80%" height="80%"></img><br/>
+
 ---
 ## 프로젝트 PPT 자료
 https://iridescent-taiyaki-ba6ad5.netlify.app
