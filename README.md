@@ -90,6 +90,7 @@
 > * 이전 Deeplab 버전에서 소개되었던 Atrous Spatial Pyramid Pooling (ASPP)을 사용한다. 좋은 성능을 보였던 모델들의 특징들을 섞어놓은 모델이며, 다양한 확장비율을 가진 커널을 병렬적으로 사용한 convolution이다.
 > * Deeplab V3+에서는 Encoder로 DeepLab V3를 사용하고, Decoder로 Bilinear Upsampling 대신 U-Net과 유사하게 Concat 해주는 방법을 사용한다.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_deeplab.png" width="70%" height="70%"></img><br/>
 > 4.2 모델링
 > * Batch size: 2
 > * Epoch: 30
@@ -97,7 +98,6 @@
 > * Learning rate: 0.001
 > * Optimizer: SGD
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_deeplab.png" width="70%" height="70%"></img><br/>
 ### 5. Image Segmentation 결과
 > 5.1 성능 평가 지표
 
