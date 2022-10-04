@@ -13,6 +13,8 @@
 
 > 1.3 개발 환경
 > * FLASK, heroku, bootstrap, vscode, PostgreSQL, colab, sklearn, pandas
+
+### 2. 프로젝트 절차
 ---
 ## portfolio 2.
 ---
