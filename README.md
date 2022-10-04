@@ -110,6 +110,9 @@
 <img src="/etc/img/pf2_result1.png" width="80%" height="80%"></img><br/>
 <img src="/etc/img/pf2_result2.png" width="80%" height="80%"></img><br/>
 <img src="/etc/img/pf2_result3.png" width="80%" height="80%"></img><br/>
+### 6. 프로젝트 회고
+> * 차량 외관 손상 유형 중 일부분인 스크래치에 대한 모델링만 진행한 점이 아쉽다.
+> * 경험 부족과 시간 상의 제약으로 완성된 모델을 구현하지 못하였지만, 더 나은 개발 환경과 데이터셋으로 프로젝트를 진행해보고 싶은 욕심이 생긴다.
 
 ---
 ## 프로젝트 PPT 자료
