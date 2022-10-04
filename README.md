@@ -17,10 +17,10 @@
 ### 2. 프로젝트 구조
 > 2.1 프로젝트 절차
 
-<img src="/etc/img/pf1_project_flow.png" width="70%" height="70%" style="margin-left: auto; margin-right: auto; display: block;"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf1_project_flow.png" width="70%" height="70%"></img><br/>
 > 2.2 데이터 파이프라인
 
-<img src="/etc/img/pf1_pipeline.png" width="70%" height="70%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf1_pipeline.png" width="70%" height="70%"></img><br/>
 
 ### 3. 데이터셋
 > * 출처: 채용사이트 'wanted' Web API
@@ -32,17 +32,17 @@
 > * 문서 집합에서 한 단어가 얼마나 중요한지를 수치적으로 나타낸 가중치
 > * 한 문서에서 단어가 등장하는 빈도가 높을수록 커지고, 해당 단어를 포함하는 문서가 많을수록 반비례하여 작아진다.
 
-<img src="/etc/img/tfidf.png" width="40%" height="40%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/tfidf.png" width="40%" height="40%"></img><br/>
 > 4.2 KNN (K-Nearest Neighbor) 알고리즘
 > * 거리 기반 분류분석 머신러닝 알고리즘
 > * 새로운 데이터를 입력 받았을 때 이 데이터와 가장 근접한 데이터들의 종류가 무엇인지 확인 및 분류
 
-<img src="/etc/img/knn.png" width="40%" height="40%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/knn.png" width="40%" height="40%"></img><br/>
 > 4.3 코사인 유사도 (Cosine Similarity)
 > * 두 벡터 간의 코사인 각도를 이용하여 구할 수 있는 두 벡터의 유사도
 > * 문서 단어 행렬이나 TF-IDF 행렬을 통해서 문서의 유사도를 구하는 경우 각각의 특징 벡터를 이용하여 연산
 
-<img src="/etc/img/cosine.png" width="70%" height="70%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/cosine.png" width="70%" height="70%"></img><br/>
 ### 5. 웹 어플리케이션 구현
 > * 웹페이지 접속 주소: https://cp1-datajob.herokuapp.com/
 
@@ -72,18 +72,18 @@
 ### 2. 프로젝트 구조
 > 2.1 프로젝트 절차
 
-<img src="/etc/img/pf2_flow.png" width="50%" height="50%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_flow.png" width="50%" height="50%"></img><br/>
 > 2.2 프로젝트 수행 일정
 
-<img src="/etc/img/pf2_schedule.png" width="90%" height="90%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_schedule.png" width="90%" height="90%"></img><br/>
 ### 3. 데이터셋
 > 3.1 PixelAnnotationTool
 
-<img src="/etc/img/labeling.png" width="90%" height="90%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/labeling.png" width="90%" height="90%"></img><br/>
 > 3.2 이미지 데이터셋
 > * 데이터수: 약 3,100 여장
 
-<img src="/etc/img/pf2_dataset.png" width="90%" height="90%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_dataset.png" width="90%" height="90%"></img><br/>
 ### 4. Image Segmentation
 > 4.1 Deeplab V3+
 > * Deeplab V3는 ImageNet에서 학습된 ResNet을 기본적인 특징 추출기로 사용한다. ResNet의 마지막 블록에서는 여러가지 확장비율을 사용한 Atrous Convolution을 사용해서 다양한 크기의 특징들을 뽑아낼 수 있도록 한다.
@@ -97,19 +97,19 @@
 > * Learning rate: 0.001
 > * Optimizer: SGD
 
-<img src="/etc/img/pf2_deeplab.png" width="50%" height="50%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_deeplab.png" width="50%" height="50%"></img><br/>
 ### 5. Image Segmentation 결과
 > 5.1 성능 평가 지표
 
-<img src="/etc/img/pf2_iou.png" width="30%" height="30%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_iou.png" width="30%" height="30%"></img><br/>
 > 5.2 추론 결과 Mask
 
-<img src="/etc/img/pf2_mask_result.png" width="80%" height="80%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_mask_result.png" width="80%" height="80%"></img><br/>
 > 5.3 외관 손상 인식 이미지
 
-<img src="/etc/img/pf2_result1.png" width="80%" height="80%"></img><br/>
-<img src="/etc/img/pf2_result2.png" width="80%" height="80%"></img><br/>
-<img src="/etc/img/pf2_result3.png" width="80%" height="80%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_result1.png" width="80%" height="80%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_result2.png" width="80%" height="80%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_result3.png" width="80%" height="80%"></img><br/>
 ### 6. 프로젝트 회고
 > * 차량 외관 손상 유형 중 일부분인 스크래치에 대한 모델링만 진행한 점이 아쉽다.
 > * 경험 부족과 시간 상의 제약으로 완성된 모델을 구현하지 못하였지만, 더 나은 개발 환경과 데이터셋으로 프로젝트를 진행해보고 싶은 욕심이 생긴다.
