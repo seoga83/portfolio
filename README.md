@@ -68,6 +68,14 @@
 
 > 1.4 개발 환경
 > * PixelAnnotationTool, colab, Pytorch, CV2, matplotlib, MMSegmentation
+
+### 2. 프로젝트 구조
+> 2.1 프로젝트 절차
+
+<img src="/etc/img/pf2_flow.png" width="50%" height="50%"></img><br/>
+> 2.2 프로젝트 수행 일정
+
+<img src="/etc/img/pf2_schedule.png" width="90%" height="90%"></img><br/>
 ---
 ## 프로젝트 PPT 자료
 https://iridescent-taiyaki-ba6ad5.netlify.app
