@@ -17,7 +17,7 @@
 ### 2. 프로젝트 구조
 > 2.1 프로젝트 절차
 
-<img src="/etc/img/pf1_project_flow.png" width="70%" height="70%"></img><br/>
+<img src="/etc/img/pf1_project_flow.png" width="70%" height="70%" style="margin-left: auto; margin-right: auto; display: block;"></img><br/>
 > 2.2 데이터 파이프라인
 
 <img src="/etc/img/pf1_pipeline.png" width="70%" height="70%"></img><br/>
