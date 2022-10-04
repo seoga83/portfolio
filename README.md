@@ -97,11 +97,11 @@
 > * Learning rate: 0.001
 > * Optimizer: SGD
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_deeplab.png" width="50%" height="50%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_deeplab.png" width="70%" height="70%"></img><br/>
 ### 5. Image Segmentation 결과
 > 5.1 성능 평가 지표
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_iou.png" width="30%" height="30%"></img><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_iou.png" width="40%" height="40%"></img><br/>
 > 5.2 추론 결과 Mask
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="/etc/img/pf2_mask_result.png" width="80%" height="80%"></img><br/>
