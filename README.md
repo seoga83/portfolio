@@ -1,5 +1,9 @@
 # - PORTFOLIO -
 ---
+## 프로젝트 PPT 자료
+https://iridescent-taiyaki-ba6ad5.netlify.app
+---
+---
 ## portfolio 1. 데이터 직군 채용 공고 추천시스템
 ### 1. 프로젝트 개요
 > 1.1 프로젝트 주제
